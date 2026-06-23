@@ -1,0 +1,24 @@
+name: Test email (manual)
+
+# 只手动触发:发一封测试邮件,验证 SMTP / 应用专用密码 / 收件送达是否正常。
+# 不影响定时的主工作流(check.yml)。验证通过后可保留(随时复查)或删除。
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Send a test email
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAIL_CC: ${{ secrets.MAIL_CC }}
+        run: python -m ur_alert.notify   # notify 的 __main__ 已配凭据时会发测试信
