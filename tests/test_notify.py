@@ -20,7 +20,7 @@ def _room(name="菊名池", room_no="402号室", madori="2K", total=66000, area=
 def test_build_message_single():
     s, b = notify.build_message([_room()])
     assert "新 1 件" in s and "菊名池" in s
-    assert "66,000円" in b and "37㎡" in b and "勝どき≤55分" in b
+    assert "66,000円" in b and "37㎡" in b and "晴海オフィス≤70分" in b
 
 
 def test_build_message_multiple_hoka():

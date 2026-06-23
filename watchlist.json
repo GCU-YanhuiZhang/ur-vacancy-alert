@@ -4,97 +4,216 @@
   "danchi": "248",
   "shikibetu": "0",
   "danchiNm": "かわさきテクノピア堀川町ハイツ",
-  "commute_min": 42
+  "commute_min": 51
  },
  {
   "shisya": "40",
   "danchi": "402",
   "shikibetu": "0",
   "danchiNm": "アーベインビオ川崎",
-  "commute_min": 42
+  "commute_min": 51
  },
  {
   "shisya": "40",
   "danchi": "219",
   "shikibetu": "0",
   "danchiNm": "サンスクエア川崎",
-  "commute_min": 44
+  "commute_min": 53
  },
  {
   "shisya": "40",
   "danchi": "183",
   "shikibetu": "0",
   "danchiNm": "川崎日進",
-  "commute_min": 47
+  "commute_min": 56
  },
  {
   "shisya": "40",
   "danchi": "151",
   "shikibetu": "0",
   "danchiNm": "鶴見町",
-  "commute_min": 48
+  "commute_min": 57
  },
  {
   "shisya": "40",
   "danchi": "266",
   "shikibetu": "0",
   "danchiNm": "小杉御殿",
-  "commute_min": 49
+  "commute_min": 58
  },
  {
   "shisya": "40",
   "danchi": "404",
   "shikibetu": "0",
   "danchiNm": "リーデンスフォート横浜",
-  "commute_min": 50
- },
- {
-  "shisya": "40",
-  "danchi": "412",
-  "shikibetu": "0",
-  "danchiNm": "コンフォール川崎富士見",
-  "commute_min": 51
+  "commute_min": 59
  },
  {
   "shisya": "40",
   "danchi": "177",
   "shikibetu": "0",
   "danchiNm": "鶴見町第二",
-  "commute_min": 51
+  "commute_min": 60
  },
  {
   "shisya": "40",
-  "danchi": "340",
+  "danchi": "412",
   "shikibetu": "0",
-  "danchiNm": "ステラ月見ヶ丘",
-  "commute_min": 52
+  "danchiNm": "コンフォール川崎富士見",
+  "commute_min": 60
+ },
+ {
+  "shisya": "40",
+  "danchi": "427",
+  "shikibetu": "0",
+  "danchiNm": "横浜ヴェールタワー",
+  "commute_min": 61
  },
  {
   "shisya": "40",
   "danchi": "260",
   "shikibetu": "0",
   "danchiNm": "川崎旭町ハイツ",
-  "commute_min": 52
+  "commute_min": 61
+ },
+ {
+  "shisya": "40",
+  "danchi": "340",
+  "shikibetu": "0",
+  "danchiNm": "ステラ月見ヶ丘",
+  "commute_min": 61
  },
  {
   "shisya": "40",
   "danchi": "420",
   "shikibetu": "0",
   "danchiNm": "ミラリオ大師河原",
-  "commute_min": 53
+  "commute_min": 62
  },
  {
   "shisya": "40",
   "danchi": "401",
   "shikibetu": "0",
   "danchiNm": "オルトヨコハマ　ビュータワー",
-  "commute_min": 54
+  "commute_min": 63
  },
  {
   "shisya": "40",
   "danchi": "269",
   "shikibetu": "0",
   "danchiNm": "港北ニュータウン　サントゥール中川",
-  "commute_min": 55
+  "commute_min": 64
+ },
+ {
+  "shisya": "40",
+  "danchi": "302",
+  "shikibetu": "0",
+  "danchiNm": "木月住吉",
+  "commute_min": 65
+ },
+ {
+  "shisya": "40",
+  "danchi": "319",
+  "shikibetu": "0",
+  "danchiNm": "ヨコハマポートサイドロア弐番館",
+  "commute_min": 66
+ },
+ {
+  "shisya": "40",
+  "danchi": "410",
+  "shikibetu": "0",
+  "danchiNm": "ミラリオ鶴見小野",
+  "commute_min": 66
+ },
+ {
+  "shisya": "40",
+  "danchi": "154",
+  "shikibetu": "0",
+  "danchiNm": "峰沢町",
+  "commute_min": 67
+ },
+ {
+  "shisya": "40",
+  "danchi": "310",
+  "shikibetu": "0",
+  "danchiNm": "アーバンハイツみぞのくち",
+  "commute_min": 67
+ },
+ {
+  "shisya": "40",
+  "danchi": "352",
+  "shikibetu": "0",
+  "danchiNm": "アーベインルネス長者町",
+  "commute_min": 67
+ },
+ {
+  "shisya": "40",
+  "danchi": "113",
+  "shikibetu": "0",
+  "danchiNm": "青葉台",
+  "commute_min": 68
+ },
+ {
+  "shisya": "40",
+  "danchi": "133",
+  "shikibetu": "0",
+  "danchiNm": "海岸通四丁目",
+  "commute_min": 68
+ },
+ {
+  "shisya": "40",
+  "danchi": "136",
+  "shikibetu": "0",
+  "danchiNm": "井土ヶ谷東",
+  "commute_min": 68
+ },
+ {
+  "shisya": "40",
+  "danchi": "205",
+  "shikibetu": "0",
+  "danchiNm": "保土ヶ谷駅前ハイツ",
+  "commute_min": 68
+ },
+ {
+  "shisya": "40",
+  "danchi": "299",
+  "shikibetu": "0",
+  "danchiNm": "アルテ横浜",
+  "commute_min": 68
+ },
+ {
+  "shisya": "40",
+  "danchi": "360",
+  "shikibetu": "0",
+  "danchiNm": "コンフォール高島台",
+  "commute_min": 68
+ },
+ {
+  "shisya": "40",
+  "danchi": "135",
+  "shikibetu": "0",
+  "danchiNm": "子母口",
+  "commute_min": 69
+ },
+ {
+  "shisya": "40",
+  "danchi": "137",
+  "shikibetu": "0",
+  "danchiNm": "南太田",
+  "commute_min": 69
+ },
+ {
+  "shisya": "40",
+  "danchi": "414",
+  "shikibetu": "0",
+  "danchiNm": "アミティ横浜",
+  "commute_min": 70
+ },
+ {
+  "shisya": "40",
+  "danchi": "425",
+  "shikibetu": "0",
+  "danchiNm": "シャレール海岸通",
+  "commute_min": 70
  }
 ]

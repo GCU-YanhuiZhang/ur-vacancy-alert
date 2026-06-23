@@ -38,7 +38,7 @@ def build_message(new_rooms):
     ts = datetime.now(_JST).strftime("%Y-%m-%d %H:%M JST")
     body = (
         f"UR 新空房 {n} 件\n"
-        f"条件:勝どき≤55分(门到门) / 家賃+共益費≤8万 / 1K以上 / ≥20㎡\n"
+        f"条件:晴海オフィス≤70分(门到门) / 家賃+共益費≤8万 / 1K以上 / ≥20㎡\n"
         f"检查时间:{ts}\n\n"
         f"{format_rooms(new_rooms)}\n\n"
         f"— ur-vacancy-alert"
