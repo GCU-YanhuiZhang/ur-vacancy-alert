@@ -1,0 +1,2 @@
+# 运行时:零依赖(纯 Python 标准库),对 GitHub Actions 最友好。
+# 开发可选:pytest(测试也能用 `python tests/test_*.py` 直接跑,不装也行)。

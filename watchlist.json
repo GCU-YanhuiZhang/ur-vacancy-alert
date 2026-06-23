@@ -1,0 +1,128 @@
+[
+ {
+  "shisya": "40",
+  "danchi": "266",
+  "shikibetu": "0",
+  "danchiNm": "小杉御殿",
+  "commute_min": 38
+ },
+ {
+  "shisya": "40",
+  "danchi": "248",
+  "shikibetu": "0",
+  "danchiNm": "かわさきテクノピア堀川町ハイツ",
+  "commute_min": 44
+ },
+ {
+  "shisya": "40",
+  "danchi": "404",
+  "shikibetu": "0",
+  "danchiNm": "リーデンスフォート横浜",
+  "commute_min": 45
+ },
+ {
+  "shisya": "40",
+  "danchi": "183",
+  "shikibetu": "0",
+  "danchiNm": "川崎日進",
+  "commute_min": 47
+ },
+ {
+  "shisya": "40",
+  "danchi": "302",
+  "shikibetu": "0",
+  "danchiNm": "木月住吉",
+  "commute_min": 47
+ },
+ {
+  "shisya": "40",
+  "danchi": "402",
+  "shikibetu": "0",
+  "danchiNm": "アーベインビオ川崎",
+  "commute_min": 47
+ },
+ {
+  "shisya": "40",
+  "danchi": "219",
+  "shikibetu": "0",
+  "danchiNm": "サンスクエア川崎",
+  "commute_min": 49
+ },
+ {
+  "shisya": "40",
+  "danchi": "401",
+  "shikibetu": "0",
+  "danchiNm": "オルトヨコハマ　ビュータワー",
+  "commute_min": 51
+ },
+ {
+  "shisya": "40",
+  "danchi": "319",
+  "shikibetu": "0",
+  "danchiNm": "ヨコハマポートサイドロア弐番館",
+  "commute_min": 52
+ },
+ {
+  "shisya": "40",
+  "danchi": "360",
+  "shikibetu": "0",
+  "danchiNm": "コンフォール高島台",
+  "commute_min": 52
+ },
+ {
+  "shisya": "40",
+  "danchi": "414",
+  "shikibetu": "0",
+  "danchiNm": "アミティ横浜",
+  "commute_min": 52
+ },
+ {
+  "shisya": "40",
+  "danchi": "299",
+  "shikibetu": "0",
+  "danchiNm": "アルテ横浜",
+  "commute_min": 54
+ },
+ {
+  "shisya": "40",
+  "danchi": "412",
+  "shikibetu": "0",
+  "danchiNm": "コンフォール川崎富士見",
+  "commute_min": 54
+ },
+ {
+  "shisya": "40",
+  "danchi": "413",
+  "shikibetu": "0",
+  "danchiNm": "コンフォール篠原",
+  "commute_min": 54
+ },
+ {
+  "shisya": "40",
+  "danchi": "151",
+  "shikibetu": "0",
+  "danchiNm": "鶴見町",
+  "commute_min": 55
+ },
+ {
+  "shisya": "40",
+  "danchi": "340",
+  "shikibetu": "0",
+  "danchiNm": "ステラ月見ヶ丘",
+  "commute_min": 55
+ },
+ {
+  "shisya": "40",
+  "danchi": "269",
+  "shikibetu": "0",
+  "danchiNm": "港北ニュータウン　サントゥール中川",
+  "commute_min": 55
+ },
+ {
+  "shisya": "40",
+  "danchi": "052",
+  "shikibetu": "0",
+  "danchiNm": "菊名池",
+  "commute_min": 55
+ }
+]

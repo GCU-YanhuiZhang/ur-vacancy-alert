@@ -1,0 +1,49 @@
+name: UR vacancy check
+
+# 定时跑空房检查(issue 06)。公开仓:免费无限分钟,机密只放 Secrets,绝不入库。
+on:
+  schedule:
+    # 每 20 分钟一次(cron 用 UTC)。GitHub 定时常晚几分钟 —— 可接受(UR 空房非秒抢)。
+    - cron: "*/20 * * * *"
+  workflow_dispatch: {}   # 也支持在 Actions 页手动触发,便于首次验证
+
+# 同一时刻只跑一个,避免两次运行同时 commit 状态文件起冲突。
+concurrency:
+  group: ur-vacancy-check
+  cancel-in-progress: false
+
+# 允许用内置 GITHUB_TOKEN 把更新后的 state/seen.json commit 回仓库。
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"   # 纯标准库,无需 pip install
+
+      - name: Run vacancy check
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}   # 未设则发给 GMAIL_USER 自己
+          MAIL_CC: ${{ secrets.MAIL_CC }}   # 未设则脚本默认 = GMAIL_USER(抄送自身兜底)
+        run: python -m ur_alert.main
+
+      - name: Commit state snapshot
+        # 即使上一步失败也尝试提交:成功时状态已更新,失败时无改动会被自动跳过。
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/seen.json
+          if git diff --staged --quiet; then
+            echo "seen.json 无变化,跳过提交"
+          else
+            git commit -m "chore: update seen.json snapshot [skip ci]"
+            git push
+          fi

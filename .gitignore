@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 邮件凭据 —— 绝不入库
+.env
+
+# Claude Code 本地个人设置(权限允许列表等),不进共享仓
+.claude/settings.local.json
+
+# 注意:state/seen.json 必须提交(GitHub Actions 用它做快照差集),不要忽略。
