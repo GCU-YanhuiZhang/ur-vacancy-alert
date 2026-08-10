@@ -36,6 +36,11 @@ TARGET_STATION = "勝どき"         # 仅作记录;通勤精度団地级(ADR-00
 BLOCK = "kanto"
 TDFK = "14"                      # 都道府県码:14 = 神奈川県
 
+# --- 容错 ---
+# 单个団地抓取失败(多为 UR API 瞬时超时)会被跳过、下轮重试,不告警。
+# 仅当「失败団地占比 > 此阈值」时才判定为系统性故障(UR 接口挂了 / 代码坏了)并邮件告警。
+ALERT_ON_FAILED_RATIO = 0.5
+
 # --- 邮件(凭据来自环境变量 / .env / Actions secrets)---
 GMAIL_USER = os.environ.get("GMAIL_USER", "")            # 发信 Gmail 地址
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")  # 16 位应用专用密码
